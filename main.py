@@ -1,6 +1,7 @@
 from tkinter import *
 
 root = Tk()
+root.title("Adding Two Numbers")
 lb1 = Label(root, text="Please enter first number")
 lb1.grid(column=1, row=1)
 entry1 = Entry(root)
